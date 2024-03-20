@@ -32,9 +32,9 @@ impl Default for AddressRange {
 }
 
 pub const FLASH_SECTOR_ERASE_SIZE: u32 = 4096;
-pub const MAIN_RAM_START: u32 = 0x20000000;
+pub const MAIN_RAM_START: u32 = 0x20020000;
 pub const MAIN_RAM_END: u32 = 0x20040000;
-pub const FLASH_START: u32 = 0x00000000;
+pub const FLASH_START: u32 = 0x00027000;
 pub const FLASH_END: u32 = 0x200000;
 // pub const XIP_SRAM_START: u32 = 0x15000000;
 // pub const XIP_SRAM_END: u32 = 0x15004000;
